@@ -1,24 +1,37 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
-    <meta charset="utf-8"/>
-    <title>Couleurs</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="couleur.css">
+    <title>couleur changement</title>
 </head>
 
 <body>
-    <header><h3>Changement de couleurs</h3></header>
-    <form id="form" method="POST">
-        <input type="text" name="rouge" id="rouge">
-        <input type="text" name="vert" id="vert">
-        <input type="text" name="bleu" id="bleu">
-    </form>
-    <div class="btn">
-        <button id="red">Rouge</button>
-        <button id="green">Vert</button>
-        <button id="blue">Bleu</button>
-    </div>
 
+    <h1>Changement de Couleur</h1>
+
+    <div class = "cadre">
+        <div class ="colonne">
+            <input type ="text" id="rgb" name="rgb" required>
+            <button class = "btnred">Rouge</button>
+        </div>
+        <div class ="colonne">
+            <input type ="text" id="rgb" name="rgb" required>
+            <button class = "btngreen">Vert</button>
+        </div>
+        <div class ="colonne">
+            <input type ="text" id="rgb" name="rgb" required>
+            <button class = "btnblue">Bleu</button>
+        </div>
+    </div>
+    
+    
+        
+   
     <script src="couleur.js"></script>
+    <footer>
+    </footer>
 </body>
+
 </html>
