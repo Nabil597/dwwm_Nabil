@@ -1,6 +1,6 @@
 body{
     margin:0 2vw;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     display: flex;
     flex-direction: column;
     justify-content: center;

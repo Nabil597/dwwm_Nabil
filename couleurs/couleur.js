@@ -31,12 +31,16 @@ function eraseCookie(name) {
 
 // recup des variables
 var body = document.getElementsByTagName("body")[0];
-
+var inputs = document.getElementsByTagName("input");
 
 // function qui change la couleur de body lors du click
-    var btnred = document.getElementsByClassName("btnred")[0];
-    var btngreen = document.getElementsByClassName("btngreen")[0];
-    var btnblue = document.getElementsByClassName("btnblue")[0];
+    var rouge = document.getElementsByClassName("btnred")[0];
+    var vert = document.getElementsByClassName("btngreen")[0];
+    var bleu = document.getElementsByClassName("btnblue")[0];
+
+    var inputRouge = document.getElementById("rouge");
+    var inputVert = document.getElementById("vert");
+    var inputBleu = document.getElementById("bleu");
 
 function changeColor(color){
     
@@ -54,6 +58,29 @@ function changeColor(color){
         break;
     }
 }
-document.getElementsByClassName("btnred")[0].addEventListener("click",function(){changeColor("red");});
-document.getElementsByClassName("btngreen")[0].addEventListener("click",function(){changeColor("green");});
-document.getElementsByClassName("btnblue")[0].addEventListener("click",function(){changeColor("blue");});
+rouge.addEventListener("click",function(){changeColor("red");});
+vert.addEventListener("click",function(){changeColor("green");});
+bleu.addEventListener("click",function(){changeColor("blue");});
+
+for (let i = 0; i<3; i++) {
+    inputs[i].addEventListener("mouseout", function() {
+        
+        if (i == 0) {
+        body.style.backgroundColor = "rgb(" + inputs[i].value + "," + inputs[i+1].value + "," + inputs[i+2].value + ")";
+            }
+        else if (i == 1) {
+            body.style.backgroundColor = "rgb(" + inputs[i-1].value + "," + inputs[i].value + "," + inputs[i+1].value + ")";
+            }
+        else if (i == 2) {
+            body.style.backgroundColor = "rgb(" + inputs[i-2].value + "," + inputs[i-1].value + "," + inputs[i].value + ")";
+            }
+    });
+}
+
+var fond = body.style.backgroundColor;
+createCookie("rgb", fond, 3);
+
+// if (document.location.reload(true)) {
+//     body.style.backgroundColor = fond;
+// }
+    
