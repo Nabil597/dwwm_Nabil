@@ -1,0 +1,186 @@
+/* elements principaux */
+
+body{
+    background-image : url(terrainFoot.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#carre {
+    position: absolute;
+    height: 7vw;
+    width: 7vw;
+    background-image : url(avatarBallon.jpg);
+    background-size: cover;
+    left: 2vw;
+    top: 40vh;
+}
+
+.obstacle{
+    position: absolute;
+    border-radius: 20px;
+}
+
+#coupe{
+    position: absolute;
+    height: 7vw;
+    width: 7vw;
+    /* background-image: url(coupe.png); */
+    background-size: cover;
+    left: 88vw;
+    top: 43vh;
+}
+
+/* ligne de départ */
+
+#obstacle3 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 15vw;
+    top: 0vh;
+}
+
+#obstacle13 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 15vw;
+    top: 20vh;
+}
+
+#obstacle4 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 15vw;
+    top: 55vh;
+}
+
+
+#obstacle5 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 15vw;
+    top: 75vh;
+}
+
+/* ligne milieu debut */
+
+#obstacle7 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 35vw;
+    top: 35vh;
+}
+
+#obstacle8 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 35vw;
+    top: 55vh;
+}
+
+#obstacle6 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 45vw;
+    top: 55vh;
+}
+
+#obstacle12 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 35vw;
+    top: 15vh;
+}
+
+/* ligne milieu milieu */
+
+#obstacle9 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 55vw;
+    top: 20vh;
+}
+
+#obstacle10 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 45vw;
+    top: 75vh;
+}
+
+
+/* ligne fin */
+
+#obstacle1 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 75vw;
+    top: 55vh;
+}
+
+#obstacle2 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 65vw;
+    top: 35vh;
+}
+
+#obstacle11 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 65vw;
+    top: 55vh;
+}
+
+#obstacle14 {
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-image: url(mur.jpg);
+    background-size: cover;
+    left: 65vw;
+    top: 15vh;
+}
+
+
