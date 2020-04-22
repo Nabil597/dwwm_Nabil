@@ -4,63 +4,24 @@ nom.addEventListener("input", verif);
 var prenom = document.getElementById("prenom");
 prenom.addEventListener("input", verif);
 
-// var codePostal = document.getElementById("cp");
-// codePostal.addEventListener("input", verif);
 
-// var telephone = document.getElementById("tel");
-// telephone.addEventListener("input", verif);
-
-// var mail = document.getElementById("mail");
-// mail.addEventListener("input", verif);
-
-// var mdp = document.getElementById("mdp");
-// mdp.addEventListener("input", verif);
-
-// var eye = document.getElementById("eye");
-// eye.addEventListener("click", afficheMdp);
-
-// var confirma = document.getElementById("confirma");
-// confirma.addEventListener("input", verifMdp);
-
-function verifMdp(event) {
-
-    var myInput = event.target;
-    var mdp = document.getElementById("mdp");
-    var imgVerte = (myInput.parentNode).getElementsByClassName("imgVerte")[0];
-    var imgRouge = (myInput.parentNode).getElementsByClassName("imgRouge")[0];
-    var message = (myInput.parentNode).getElementsByClassName("message")[0];
-
-    if (myInput.value=="") {
-
-        imgVerte.style.visibility = "hidden";
-        imgRouge.style.visibility = "hidden";
-        message.innerHTML = "champ manquant";
-    } else if (myInput.value===mdp.value) {
-        imgVerte.style.visibility = "visible";
-        imgRouge.style.visibility = "hidden";
-        message.innerHTML = "";
-    } else {
-        imgVerte.style.visibility = "hidden";
-        imgRouge.style.visibility = "visible";
-        message.innerHTML = "format incorrect";
-    }
-}
-
-function afficheMdp()
+var valeur = readCookie("visite");
+var name = readCookie("nom");
+var surname = readCookie("prenom");
+if (valeur == null)
 {
-    if (mdp.type==="password")
-    {
-        mdp.type = "text";
-    }
-    else {
-        mdp.type = "password";
-    }
+    createCookie("visite", 1, 3);
+}
+else if (valeur == 1)
+{
+    nom.value = name;
+    prenom.value = surname;
 }
 
 function verif(event) {
     
     var myInput = event.target;
-
+    createCookie(myInput.id, myInput.value, 3);
     var imgVerte = (myInput.parentNode).getElementsByClassName("imgVerte")[0];
     var imgRouge = (myInput.parentNode).getElementsByClassName("imgRouge")[0];
     var message = (myInput.parentNode).getElementsByClassName("message")[0];
@@ -113,14 +74,4 @@ function eraseCookie(name) {
     createCookie(name, "", -1);
 }
 
-var valeur = readCookie("visite");
-if (valeur == null)
-{
-    createCookie("nom", nom.value, 3);
-    createCookie("prenom", prenom.value, 3);
-    valeur = 1;
-}
-else {
-    nom.value = readCookie("nom");
-    prenom.value = readCookie("prenom");
-}
+

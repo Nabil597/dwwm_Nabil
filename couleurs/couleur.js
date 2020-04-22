@@ -38,13 +38,11 @@ var inputs = document.getElementsByTagName("input");
     var vert = document.getElementsByClassName("btngreen")[0];
     var bleu = document.getElementsByClassName("btnblue")[0];
 
-    var inputRouge = document.getElementById("rouge");
-    var inputVert = document.getElementById("vert");
-    var inputBleu = document.getElementById("bleu");
-
+    
 function changeColor(color){
     
     switch (color){
+        
         case "red":
             body.style.backgroundColor = "red";
         break;
@@ -57,6 +55,7 @@ function changeColor(color){
             body.style.backgroundColor = "lightblue";
         break;
     }
+    createCookie("rgb",body.style.backgroundColor, 3);
 }
 rouge.addEventListener("click",function(){changeColor("red");});
 vert.addEventListener("click",function(){changeColor("green");});
@@ -65,22 +64,15 @@ bleu.addEventListener("click",function(){changeColor("blue");});
 for (let i = 0; i<3; i++) {
     inputs[i].addEventListener("mouseout", function() {
         
-        if (i == 0) {
-        body.style.backgroundColor = "rgb(" + inputs[i].value + "," + inputs[i+1].value + "," + inputs[i+2].value + ")";
-            }
-        else if (i == 1) {
-            body.style.backgroundColor = "rgb(" + inputs[i-1].value + "," + inputs[i].value + "," + inputs[i+1].value + ")";
-            }
-        else if (i == 2) {
-            body.style.backgroundColor = "rgb(" + inputs[i-2].value + "," + inputs[i-1].value + "," + inputs[i].value + ")";
-            }
+            body.style.backgroundColor = "rgb(" + inputs[0].value + "," + inputs[1].value + "," + inputs[2].value + ")";
+            createCookie("rgb",body.style.backgroundColor, 3);
+            
     });
 }
 
-var fond = body.style.backgroundColor;
-createCookie("rgb", fond, 3);
+var couleurs = readCookie("rgb");
 
-// if (document.location.reload(true)) {
-//     body.style.backgroundColor = fond;
-// }
-    
+if (couleurs != null)
+{
+    body.style.backgroundColor = couleurs;
+}
