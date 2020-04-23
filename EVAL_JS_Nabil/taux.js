@@ -14,6 +14,22 @@ capital.addEventListener("input", function() { calcul (capital.value, taux.value
 taux.addEventListener("input", function() { calcul (capital.value, taux.value, duree.value) } );
 duree.addEventListener("input", function() { calcul (capital.value, taux.value, duree.value) } );
 
+var reinitialiser = document.getElementById("reinitialiser");
+reinitialiser.addEventListener("click", reset);
+
+var calculer = document.getElementById("calcul");
+calculer.addEventListener("click", function() { calcul (capital.value, taux.value, duree.value) } );
+
+function reset() {
+
+    capital.value = "";
+    taux.value = "";
+    duree.value = "";
+    mensualite.value = "";
+    cout.value = "";
+}
+
+
 function verifEntier(event) {
 
     var myInput = event.target;
@@ -46,4 +62,10 @@ function verifTaux(event) {
 function calcul (capital, taux, duree) {
     mensualite.value = parseInt((parseInt(capital) * parseFloat(taux/12)) / (1 - Math.pow(1 + parseFloat(taux/12), - (parseInt(duree) * 12))));
     cout.value = parseInt(mensualite.value * (parseInt(duree) * 12));
+
+    if (isNaN(mensualite.value) || isNaN(cout.value))
+    {
+        mensualite.value = "";
+        cout.value = "";
+    }
 }
