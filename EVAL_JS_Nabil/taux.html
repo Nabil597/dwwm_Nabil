@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calcul mensualité</title>
+    <link rel="stylesheet" href="taux.css">
+</head>
+
+<body>
+    <header><h2>Calcul du taux d'intérêt</h2></header>
+    <div class="contenu">
+        <form name="form" class="form">
+            <fieldset>
+            <div class="ligne">
+                <label for="capital">Capital Emprunté</label>
+                <input type="text" id="capital" required>
+                <div class="euro">€</div>
+            </div>
+            <div class="ligne">
+                <label for="taux">Taux Nominal Annuel</label>
+                <input type="text" id="taux" required>
+                <div id="pourcentage">%</div>
+            </div>
+            <div class="ligne">
+                <label for="annee">Durée d'emprunt</label>
+                <input type="text" id="duree" required>
+                <div id="ans">Ans</div>
+            </div>
+            </fieldset>
+        </form>
+        <div class="espaceV"></div>
+        <form name="form2" class="form">
+            <fieldset>
+                <div class="ligne">
+                    <label for="mensualite">Mensualité</label>
+                    <input type="text" id="mensualite">
+                    <div class="euro">€</div>
+                </div>
+                <div class="ligne">
+                    <label for="cout">Cout Total</label>
+                    <input type="text" id="cout">
+                    <div class="euro">€</div>
+                </div>
+            </fieldset>
+        </form>
+        <div class="espaceV"></div>
+        <div class="btn">
+            <button id="calcul">Calculer</button>
+            <button id="reinitialiser">Nouveau calcul</button>
+        </div>
+        
+        <footer></footer>
+    </div> 
+
+    <script src="taux.js"></script>
+</body>
+</html>
