@@ -40,7 +40,7 @@ form{
 
 label{
     padding-right: 10px;
-    flex: 2;
+    flex: 3;
 }
 input{
     margin-right: 0;
@@ -68,4 +68,10 @@ input{
 
 fieldset{
     padding: 2vh 5vw;
+}
+
+.message{
+    flex: 1;
+    width: 5vw;
+    margin : 0 5vw;
 }
