@@ -1,0 +1,2102 @@
+{
+    "nhits": 109,
+    "parameters": {
+        "dataset": "vlille-realtime",
+        "timezone": "UTC",
+        "rows": 25,
+        "format": "json",
+        "facet": [
+            "libelle",
+            "nom",
+            "commune",
+            "etat",
+            "type",
+            "etatconnexion"
+        ]
+    },
+    "records": [
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "e0676f038aea52b64945ef7be8b52c74ae89ba6f",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 18,
+                "nbplacesdispo": 18,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 27,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.635014,
+                    3.064802
+                ],
+                "nom": "TANNEURS",
+                "adresse": "2 - 10 RUE DES TANNEURS",
+                "geo": [
+                    50.635014,
+                    3.064802
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.064802,
+                    50.635014
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "81cdd1ead280be51a8e0868793eb13118621056f",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 13,
+                "nbplacesdispo": 7,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 29,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.647236,
+                    3.059376
+                ],
+                "nom": "ST SEBASTIEN",
+                "adresse": "40 RUE SAINT SEBASTIEN",
+                "geo": [
+                    50.647236,
+                    3.059376
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.059376,
+                    50.647236
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "6f55bf2493bbf51f0490ee50987490d05135c4e6",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 11,
+                "nbplacesdispo": 7,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 66,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.63237,
+                    3.066273
+                ],
+                "nom": "DELESALLE MEDIATHEQUE",
+                "adresse": "35 RUE EDOUARD DELESALLE",
+                "geo": [
+                    50.63237,
+                    3.066273
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.066273,
+                    50.63237
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "e76138729b09a25cec4020ec405ca46807ef3d1d",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 0,
+                "nbplacesdispo": 12,
+                "commune": "LILLE",
+                "type": "SANS TPE",
+                "libelle": 172,
+                "datemiseajour": "2020-04-23T11:58:08+00:00",
+                "localisation": [
+                    50.612635,
+                    3.059261
+                ],
+                "nom": "PLACE DE LA GARONNE",
+                "adresse": "Rue de la Seine",
+                "geo": [
+                    50.612635,
+                    3.059261
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.059261,
+                    50.612635
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "ef84a05a565deb315228b079839095182c045f1f",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 15,
+                "nbplacesdispo": 17,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 8,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.632366,
+                    3.062313
+                ],
+                "nom": "PLACE RICHEBE",
+                "adresse": "3 PLACE RICHEBE",
+                "geo": [
+                    50.632366,
+                    3.062313
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.062313,
+                    50.632366
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "301edb33dc7276e7346e6cab110788590396bda1",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 8,
+                "nbplacesdispo": 17,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 12,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.637486,
+                    3.065902
+                ],
+                "nom": "OPERA",
+                "adresse": "FACE AU 8 RUE ANATOLE FRANCE",
+                "geo": [
+                    50.637486,
+                    3.065902
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.065902,
+                    50.637486
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "18b269166d31afbff1eaa73ca676067639cdbec7",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 14,
+                "nbplacesdispo": 10,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 19,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.64031,
+                    3.05774
+                ],
+                "nom": "RUE ROYALE",
+                "adresse": "40 RUE ROYALE",
+                "geo": [
+                    50.64031,
+                    3.05774
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.05774,
+                    50.64031
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "985b9680072408444b6e05524e66ad6c833206fe",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 14,
+                "nbplacesdispo": 16,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 20,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.640385,
+                    3.062053
+                ],
+                "nom": "N.D. DE LA TREILLE",
+                "adresse": "PLACE GILLSON",
+                "geo": [
+                    50.640385,
+                    3.062053
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.062053,
+                    50.640385
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "3f443706e549c832710c84005d00723d5a476544",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 11,
+                "nbplacesdispo": 13,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 43,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.629044,
+                    3.058288
+                ],
+                "nom": "THEATRE SEBASTOPOL",
+                "adresse": "3 PLACE SEBASTOPOL",
+                "geo": [
+                    50.629044,
+                    3.058288
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.058288,
+                    50.629044
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "723289fe50c959f7e63d75b17870762aa8eaddd4",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 12,
+                "nbplacesdispo": 6,
+                "commune": "LILLE",
+                "type": "SANS TPE",
+                "libelle": 93,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.628918,
+                    3.088147
+                ],
+                "nom": "STADE BALLET",
+                "adresse": "85 RUE DU LONG POT",
+                "geo": [
+                    50.628918,
+                    3.088147
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.088147,
+                    50.628918
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "e262deb6bdf2bd339975697487646055c99a511f",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 9,
+                "nbplacesdispo": 7,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 164,
+                "datemiseajour": "2020-04-23T11:58:08+00:00",
+                "localisation": [
+                    50.63393,
+                    3.061687
+                ],
+                "nom": "HOPITAL MILITAIRE",
+                "adresse": "2 rue Pierre Dupont",
+                "geo": [
+                    50.63393,
+                    3.061687
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.061687,
+                    50.63393
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "abd202002491bb30a4da32da56fba3df81c6627a",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 16,
+                "nbplacesdispo": 14,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 22,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.64124,
+                    3.064987
+                ],
+                "nom": "LOUISE DE BETTIGNIES",
+                "adresse": "PLACE LOUISE DE BETTIGNIES",
+                "geo": [
+                    50.64124,
+                    3.064987
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.064987,
+                    50.64124
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "9e6a869133647a8607f15021c18c5738065fdef7",
+            "fields": {
+                "etat": "EN MAINTENANCE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 0,
+                "nbplacesdispo": 40,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 28,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.634686,
+                    3.048344
+                ],
+                "nom": "PALAIS RAMEAU",
+                "adresse": "17 RUE SOLFERINO",
+                "geo": [
+                    50.634686,
+                    3.048344
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.048344,
+                    50.634686
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "e7434051dfb6403a5e6fefe6879de5969030f5ae",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 5,
+                "nbplacesdispo": 11,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 70,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.63424,
+                    3.073991
+                ],
+                "nom": "CITE ADMINISTRATIVE",
+                "adresse": "51 RUE DE TOURNAI",
+                "geo": [
+                    50.63424,
+                    3.073991
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.073991,
+                    50.63424
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "631670fe7d7119ee356002403c25f3a677b1862f",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 7,
+                "nbplacesdispo": 13,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 74,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.641018,
+                    3.082493
+                ],
+                "nom": "FAUBOURG DE ROUBAIX",
+                "adresse": "104 RUE DU FAUBOURG DE ROUBAIX",
+                "geo": [
+                    50.641018,
+                    3.082493
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.082493,
+                    50.641018
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "77318b55b366a091f86257719649cddb47e492d7",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 11,
+                "nbplacesdispo": 9,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 31,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.644264,
+                    3.062935
+                ],
+                "nom": "PONT NEUF",
+                "adresse": "38 BIS RUE DU PONT NEUF",
+                "geo": [
+                    50.644264,
+                    3.062935
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.062935,
+                    50.644264
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "dafc950d65ec51317aa65aaba7a12fb5a0cfc396",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 14,
+                "nbplacesdispo": 10,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 47,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.62824,
+                    3.069233
+                ],
+                "nom": "BOULEVARD LOUIS XIV",
+                "adresse": "1 BOULEVARD JEAN BAPTISTE LEBAS",
+                "geo": [
+                    50.62824,
+                    3.069233
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.069233,
+                    50.62824
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "267aecef5841acf354f7b87ddcb4ee03c7638e57",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 3,
+                "nbplacesdispo": 18,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 75,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.637337,
+                    3.084894
+                ],
+                "nom": "EUGENE JACQUET",
+                "adresse": "59 RUE EUGENE JACQUET",
+                "geo": [
+                    50.637337,
+                    3.084894
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.084894,
+                    50.637337
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "f626a2f47b4e69345b4b098c5428e64ac0a76eeb",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 5,
+                "nbplacesdispo": 13,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 77,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.622963,
+                    3.091363
+                ],
+                "nom": "MONT DE TERRE",
+                "adresse": "7 RUE MATTEOTI",
+                "geo": [
+                    50.622963,
+                    3.091363
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.091363,
+                    50.622963
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "8f7c0de050a715b628b2d84322fbebdd5781192a",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 14,
+                "nbplacesdispo": 6,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 148,
+                "datemiseajour": "2020-04-23T11:58:08+00:00",
+                "localisation": [
+                    50.612194,
+                    3.074952
+                ],
+                "nom": "P.I. DE DOUAI",
+                "adresse": "RUE DU FAUBOURG DE DOUAI SOUS LE PONT",
+                "geo": [
+                    50.612194,
+                    3.074952
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.074952,
+                    50.612194
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "b4619d5f34e51da488f9fb19ebb8e88020d78df0",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 13,
+                "nbplacesdispo": 7,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 4,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.624695,
+                    3.048961
+                ],
+                "nom": "MAISON FOLIE WAZEMMES",
+                "adresse": "28 RUE DE L'HOPITAL SAINT ROCH",
+                "geo": [
+                    50.624695,
+                    3.048961
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.048961,
+                    50.624695
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "aead83b9344721c5c99e70a889b61c8d7550545d",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 11,
+                "nbplacesdispo": 14,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 50,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.62224,
+                    3.067004
+                ],
+                "nom": "RUE D'ARRAS",
+                "adresse": "4 RUE WAZEMMES",
+                "geo": [
+                    50.62224,
+                    3.067004
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.067004,
+                    50.62224
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "2aff4980cf4ff599dd1ac401bac51a68049d10ac",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 8,
+                "nbplacesdispo": 22,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 88,
+                "datemiseajour": "2020-04-23T11:58:07+00:00",
+                "localisation": [
+                    50.635082,
+                    3.058015
+                ],
+                "nom": "RUE NATIONALE",
+                "adresse": "91 RUE NATIONALE",
+                "geo": [
+                    50.635082,
+                    3.058015
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.058015,
+                    50.635082
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "37bc26c8aa6181bad4eeb8d516e4aaeb0ab457f7",
+            "fields": {
+                "etat": "OUT_OF_SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 0,
+                "nbplacesdispo": 16,
+                "commune": "LILLE",
+                "type": "AVEC TPE",
+                "libelle": 268,
+                "datemiseajour": "2020-04-23T11:58:08+00:00",
+                "localisation": [
+                    50.6967934,
+                    3.1684926
+                ],
+                "nom": "BLANCHEMAILLE",
+                "adresse": "59-55 rue de Blanchemaille",
+                "geo": [
+                    50.6967934,
+                    3.1684926
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.1684926,
+                    50.6967934
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        },
+        {
+            "datasetid": "vlille-realtime",
+            "recordid": "c02a26ee7273464c8be9fa938edb9c93b67e23a6",
+            "fields": {
+                "etat": "EN SERVICE",
+                "etatconnexion": "CONNECTED",
+                "nbvelosdispo": 14,
+                "nbplacesdispo": 4,
+                "commune": "LILLE",
+                "type": "SANS TPE",
+                "libelle": 113,
+                "datemiseajour": "2020-04-23T11:58:08+00:00",
+                "localisation": [
+                    50.651337,
+                    3.08945
+                ],
+                "nom": "AVENUE DE MORMAL",
+                "adresse": "16, RUE DU BUISSON",
+                "geo": [
+                    50.651337,
+                    3.08945
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.08945,
+                    50.651337
+                ]
+            },
+            "record_timestamp": "2020-04-23T11:59:07.412000+00:00"
+        }
+    ],
+    "facet_groups": [
+        {
+            "facets": [
+                {
+                    "count": 102,
+                    "path": "EN SERVICE",
+                    "state": "displayed",
+                    "name": "EN SERVICE"
+                },
+                {
+                    "count": 4,
+                    "path": "HORS SERVICE",
+                    "state": "displayed",
+                    "name": "HORS SERVICE"
+                },
+                {
+                    "count": 2,
+                    "path": "EN MAINTENANCE",
+                    "state": "displayed",
+                    "name": "EN MAINTENANCE"
+                },
+                {
+                    "count": 1,
+                    "path": "OUT_OF_SERVICE",
+                    "state": "displayed",
+                    "name": "OUT_OF_SERVICE"
+                }
+            ],
+            "name": "etat"
+        },
+        {
+            "facets": [
+                {
+                    "count": 1,
+                    "path": "ANGELLIER",
+                    "state": "displayed",
+                    "name": "ANGELLIER"
+                },
+                {
+                    "count": 1,
+                    "path": "ARTOIS",
+                    "state": "displayed",
+                    "name": "ARTOIS"
+                },
+                {
+                    "count": 1,
+                    "path": "AUBERGE DE JEUNESSE",
+                    "state": "displayed",
+                    "name": "AUBERGE DE JEUNESSE"
+                },
+                {
+                    "count": 1,
+                    "path": "AVENUE DE MORMAL",
+                    "state": "displayed",
+                    "name": "AVENUE DE MORMAL"
+                },
+                {
+                    "count": 1,
+                    "path": "BARTHELEMY DELESPAUL",
+                    "state": "displayed",
+                    "name": "BARTHELEMY DELESPAUL"
+                },
+                {
+                    "count": 1,
+                    "path": "BD VICTOR HUGO",
+                    "state": "displayed",
+                    "name": "BD VICTOR HUGO"
+                },
+                {
+                    "count": 1,
+                    "path": "BELFORT",
+                    "state": "displayed",
+                    "name": "BELFORT"
+                },
+                {
+                    "count": 1,
+                    "path": "BLANCHEMAILLE",
+                    "state": "displayed",
+                    "name": "BLANCHEMAILLE"
+                },
+                {
+                    "count": 1,
+                    "path": "BOIS BLANCS",
+                    "state": "displayed",
+                    "name": "BOIS BLANCS"
+                },
+                {
+                    "count": 1,
+                    "path": "BOIS HABITE",
+                    "state": "displayed",
+                    "name": "BOIS HABITE"
+                },
+                {
+                    "count": 1,
+                    "path": "BOULEVARD DE METZ",
+                    "state": "displayed",
+                    "name": "BOULEVARD DE METZ"
+                },
+                {
+                    "count": 1,
+                    "path": "BOULEVARD LOUIS XIV",
+                    "state": "displayed",
+                    "name": "BOULEVARD LOUIS XIV"
+                },
+                {
+                    "count": 1,
+                    "path": "BRULE MAISON",
+                    "state": "displayed",
+                    "name": "BRULE MAISON"
+                },
+                {
+                    "count": 1,
+                    "path": "BUISSON",
+                    "state": "displayed",
+                    "name": "BUISSON"
+                },
+                {
+                    "count": 1,
+                    "path": "CAMPUS ST RAPHAEL",
+                    "state": "displayed",
+                    "name": "CAMPUS ST RAPHAEL"
+                },
+                {
+                    "count": 1,
+                    "path": "CANTELEU",
+                    "state": "displayed",
+                    "name": "CANTELEU"
+                },
+                {
+                    "count": 1,
+                    "path": "CHAMP DE MARS",
+                    "state": "displayed",
+                    "name": "CHAMP DE MARS"
+                },
+                {
+                    "count": 1,
+                    "path": "CHASSEURS DE DRIANT",
+                    "state": "displayed",
+                    "name": "CHASSEURS DE DRIANT"
+                },
+                {
+                    "count": 1,
+                    "path": "CHU - CENTRE OSCART LAMBRET",
+                    "state": "displayed",
+                    "name": "CHU - CENTRE OSCART LAMBRET"
+                },
+                {
+                    "count": 1,
+                    "path": "CHU - EURASANT\u00c9",
+                    "state": "displayed",
+                    "name": "CHU - EURASANT\u00c9"
+                },
+                {
+                    "count": 1,
+                    "path": "CIMETIERE DU SUD",
+                    "state": "displayed",
+                    "name": "CIMETIERE DU SUD"
+                },
+                {
+                    "count": 1,
+                    "path": "CITE ADMINISTRATIVE",
+                    "state": "displayed",
+                    "name": "CITE ADMINISTRATIVE"
+                },
+                {
+                    "count": 1,
+                    "path": "CORMONTAIGNE",
+                    "state": "displayed",
+                    "name": "CORMONTAIGNE"
+                },
+                {
+                    "count": 1,
+                    "path": "DELESALLE MEDIATHEQUE",
+                    "state": "displayed",
+                    "name": "DELESALLE MEDIATHEQUE"
+                },
+                {
+                    "count": 1,
+                    "path": "ESPLANADE",
+                    "state": "displayed",
+                    "name": "ESPLANADE"
+                },
+                {
+                    "count": 1,
+                    "path": "EUGENE JACQUET",
+                    "state": "displayed",
+                    "name": "EUGENE JACQUET"
+                },
+                {
+                    "count": 1,
+                    "path": "EURALILLE",
+                    "state": "displayed",
+                    "name": "EURALILLE"
+                },
+                {
+                    "count": 1,
+                    "path": "EURATECHNOLOGIES",
+                    "state": "displayed",
+                    "name": "EURATECHNOLOGIES"
+                },
+                {
+                    "count": 1,
+                    "path": "FAUBOURG D'ARRAS",
+                    "state": "displayed",
+                    "name": "FAUBOURG D'ARRAS"
+                },
+                {
+                    "count": 1,
+                    "path": "FAUBOURG DE ROUBAIX",
+                    "state": "displayed",
+                    "name": "FAUBOURG DE ROUBAIX"
+                },
+                {
+                    "count": 1,
+                    "path": "FIVES",
+                    "state": "displayed",
+                    "name": "FIVES"
+                },
+                {
+                    "count": 1,
+                    "path": "FLANDRES EURALILLE",
+                    "state": "displayed",
+                    "name": "FLANDRES EURALILLE"
+                },
+                {
+                    "count": 1,
+                    "path": "FULTON",
+                    "state": "displayed",
+                    "name": "FULTON"
+                },
+                {
+                    "count": 1,
+                    "path": "GAMBETTA UTRECHT",
+                    "state": "displayed",
+                    "name": "GAMBETTA UTRECHT"
+                },
+                {
+                    "count": 1,
+                    "path": "GANTOIS",
+                    "state": "displayed",
+                    "name": "GANTOIS"
+                },
+                {
+                    "count": 1,
+                    "path": "GARE LILLE EUROPE",
+                    "state": "displayed",
+                    "name": "GARE LILLE EUROPE"
+                },
+                {
+                    "count": 1,
+                    "path": "GARE LILLE FLANDRES",
+                    "state": "displayed",
+                    "name": "GARE LILLE FLANDRES"
+                },
+                {
+                    "count": 1,
+                    "path": "HALLE AUX SUCRES",
+                    "state": "displayed",
+                    "name": "HALLE AUX SUCRES"
+                },
+                {
+                    "count": 1,
+                    "path": "HOPITAL MILITAIRE",
+                    "state": "displayed",
+                    "name": "HOPITAL MILITAIRE"
+                },
+                {
+                    "count": 1,
+                    "path": "HOTEL DE POLICE",
+                    "state": "displayed",
+                    "name": "HOTEL DE POLICE"
+                },
+                {
+                    "count": 1,
+                    "path": "HOTEL DE REGION",
+                    "state": "displayed",
+                    "name": "HOTEL DE REGION"
+                },
+                {
+                    "count": 1,
+                    "path": "JARDIN VAUBAN",
+                    "state": "displayed",
+                    "name": "JARDIN VAUBAN"
+                },
+                {
+                    "count": 1,
+                    "path": "JB LEBAS",
+                    "state": "displayed",
+                    "name": "JB LEBAS"
+                },
+                {
+                    "count": 1,
+                    "path": "JEAN SANS PEUR",
+                    "state": "displayed",
+                    "name": "JEAN SANS PEUR"
+                },
+                {
+                    "count": 1,
+                    "path": "JEMMAPES",
+                    "state": "displayed",
+                    "name": "JEMMAPES"
+                },
+                {
+                    "count": 1,
+                    "path": "LECLERC",
+                    "state": "displayed",
+                    "name": "LECLERC"
+                },
+                {
+                    "count": 1,
+                    "path": "LILLE GRAND PALAIS",
+                    "state": "displayed",
+                    "name": "LILLE GRAND PALAIS"
+                },
+                {
+                    "count": 1,
+                    "path": "LOUISE DE BETTIGNIES",
+                    "state": "displayed",
+                    "name": "LOUISE DE BETTIGNIES"
+                },
+                {
+                    "count": 1,
+                    "path": "LOUVIERE",
+                    "state": "displayed",
+                    "name": "LOUVIERE"
+                },
+                {
+                    "count": 1,
+                    "path": "MAGASIN",
+                    "state": "displayed",
+                    "name": "MAGASIN"
+                },
+                {
+                    "count": 1,
+                    "path": "MAIRIE DE LILLE",
+                    "state": "displayed",
+                    "name": "MAIRIE DE LILLE"
+                },
+                {
+                    "count": 1,
+                    "path": "MAISON FOLIE WAZEMMES",
+                    "state": "displayed",
+                    "name": "MAISON FOLIE WAZEMMES"
+                },
+                {
+                    "count": 1,
+                    "path": "MARCHE DE WAZEMMES",
+                    "state": "displayed",
+                    "name": "MARCHE DE WAZEMMES"
+                },
+                {
+                    "count": 1,
+                    "path": "MARX DORMOY",
+                    "state": "displayed",
+                    "name": "MARX DORMOY"
+                },
+                {
+                    "count": 1,
+                    "path": "MASSENA",
+                    "state": "displayed",
+                    "name": "MASSENA"
+                },
+                {
+                    "count": 1,
+                    "path": "METRO GAMBETTA",
+                    "state": "displayed",
+                    "name": "METRO GAMBETTA"
+                },
+                {
+                    "count": 1,
+                    "path": "METRO WAZEMMES",
+                    "state": "displayed",
+                    "name": "METRO WAZEMMES"
+                },
+                {
+                    "count": 1,
+                    "path": "METROPOLE EUROPEENNE DE LILLE",
+                    "state": "displayed",
+                    "name": "METROPOLE EUROPEENNE DE LILLE"
+                },
+                {
+                    "count": 1,
+                    "path": "MOLINEL",
+                    "state": "displayed",
+                    "name": "MOLINEL"
+                },
+                {
+                    "count": 1,
+                    "path": "MONT DE TERRE",
+                    "state": "displayed",
+                    "name": "MONT DE TERRE"
+                },
+                {
+                    "count": 1,
+                    "path": "MONTEBELLO",
+                    "state": "displayed",
+                    "name": "MONTEBELLO"
+                },
+                {
+                    "count": 1,
+                    "path": "N.D. DE LA TREILLE",
+                    "state": "displayed",
+                    "name": "N.D. DE LA TREILLE"
+                },
+                {
+                    "count": 1,
+                    "path": "NATIONALE RUE DU PORT",
+                    "state": "displayed",
+                    "name": "NATIONALE RUE DU PORT"
+                },
+                {
+                    "count": 1,
+                    "path": "NOUVEAU SIECLE",
+                    "state": "displayed",
+                    "name": "NOUVEAU SIECLE"
+                },
+                {
+                    "count": 1,
+                    "path": "OPERA",
+                    "state": "displayed",
+                    "name": "OPERA"
+                },
+                {
+                    "count": 1,
+                    "path": "P.I. DE DOUAI",
+                    "state": "displayed",
+                    "name": "P.I. DE DOUAI"
+                },
+                {
+                    "count": 1,
+                    "path": "PALAIS RAMEAU",
+                    "state": "displayed",
+                    "name": "PALAIS RAMEAU"
+                },
+                {
+                    "count": 1,
+                    "path": "PETIT MAROC",
+                    "state": "displayed",
+                    "name": "PETIT MAROC"
+                },
+                {
+                    "count": 1,
+                    "path": "PLACE AUX BLEUETS",
+                    "state": "displayed",
+                    "name": "PLACE AUX BLEUETS"
+                },
+                {
+                    "count": 1,
+                    "path": "PLACE CASQUETTE",
+                    "state": "displayed",
+                    "name": "PLACE CASQUETTE"
+                },
+                {
+                    "count": 1,
+                    "path": "PLACE CATINAT",
+                    "state": "displayed",
+                    "name": "PLACE CATINAT"
+                },
+                {
+                    "count": 1,
+                    "path": "PLACE COLETTE BESSON",
+                    "state": "displayed",
+                    "name": "PLACE COLETTE BESSON"
+                },
+                {
+                    "count": 1,
+                    "path": "PLACE DE LA GARONNE",
+                    "state": "displayed",
+                    "name": "PLACE DE LA GARONNE"
+                },
+                {
+                    "count": 1,
+                    "path": "PLACE DE STRASBOURG",
+                    "state": "displayed",
+                    "name": "PLACE DE STRASBOURG"
+                },
+                {
+                    "count": 1,
+                    "path": "PLACE DELIOT",
+                    "state": "displayed",
+                    "name": "PLACE DELIOT"
+                },
+                {
+                    "count": 1,
+                    "path": "PLACE DU CONCERT",
+                    "state": "displayed",
+                    "name": "PLACE DU CONCERT"
+                },
+                {
+                    "count": 1,
+                    "path": "PLACE PHILIPPE LEBON",
+                    "state": "displayed",
+                    "name": "PLACE PHILIPPE LEBON"
+                },
+                {
+                    "count": 1,
+                    "path": "PLACE RICHEBE",
+                    "state": "displayed",
+                    "name": "PLACE RICHEBE"
+                },
+                {
+                    "count": 1,
+                    "path": "PLACE TACQ",
+                    "state": "displayed",
+                    "name": "PLACE TACQ"
+                },
+                {
+                    "count": 1,
+                    "path": "PONT NEUF",
+                    "state": "displayed",
+                    "name": "PONT NEUF"
+                },
+                {
+                    "count": 1,
+                    "path": "PORT DE LILLE",
+                    "state": "displayed",
+                    "name": "PORT DE LILLE"
+                },
+                {
+                    "count": 1,
+                    "path": "PORTE D'ARRAS",
+                    "state": "displayed",
+                    "name": "PORTE D'ARRAS"
+                },
+                {
+                    "count": 1,
+                    "path": "PORTE DE DOUAI",
+                    "state": "displayed",
+                    "name": "PORTE DE DOUAI"
+                },
+                {
+                    "count": 1,
+                    "path": "PORTE DE VALENCIENNES",
+                    "state": "displayed",
+                    "name": "PORTE DE VALENCIENNES"
+                },
+                {
+                    "count": 1,
+                    "path": "PORTE DES POSTES",
+                    "state": "displayed",
+                    "name": "PORTE DES POSTES"
+                },
+                {
+                    "count": 1,
+                    "path": "QUAI DU WAULT",
+                    "state": "displayed",
+                    "name": "QUAI DU WAULT"
+                },
+                {
+                    "count": 1,
+                    "path": "REPUBLIQUE BEAUX ARTS",
+                    "state": "displayed",
+                    "name": "REPUBLIQUE BEAUX ARTS"
+                },
+                {
+                    "count": 1,
+                    "path": "RIHOUR",
+                    "state": "displayed",
+                    "name": "RIHOUR"
+                },
+                {
+                    "count": 1,
+                    "path": "RIVES DE LA HAUTE DEULE",
+                    "state": "displayed",
+                    "name": "RIVES DE LA HAUTE DEULE"
+                },
+                {
+                    "count": 1,
+                    "path": "RUE BONTE-POLLET",
+                    "state": "displayed",
+                    "name": "RUE BONTE-POLLET"
+                },
+                {
+                    "count": 1,
+                    "path": "RUE D'ARRAS",
+                    "state": "displayed",
+                    "name": "RUE D'ARRAS"
+                },
+                {
+                    "count": 1,
+                    "path": "RUE DE GAND",
+                    "state": "displayed",
+                    "name": "RUE DE GAND"
+                },
+                {
+                    "count": 1,
+                    "path": "RUE DE LA GAITE",
+                    "state": "displayed",
+                    "name": "RUE DE LA GAITE"
+                },
+                {
+                    "count": 1,
+                    "path": "RUE DE TOUL",
+                    "state": "displayed",
+                    "name": "RUE DE TOUL"
+                },
+                {
+                    "count": 1,
+                    "path": "RUE DES ARTS",
+                    "state": "displayed",
+                    "name": "RUE DES ARTS"
+                },
+                {
+                    "count": 1,
+                    "path": "RUE NATIONALE",
+                    "state": "displayed",
+                    "name": "RUE NATIONALE"
+                },
+                {
+                    "count": 1,
+                    "path": "RUE ROYALE",
+                    "state": "displayed",
+                    "name": "RUE ROYALE"
+                },
+                {
+                    "count": 1,
+                    "path": "SOLFERINO NATIONALE",
+                    "state": "displayed",
+                    "name": "SOLFERINO NATIONALE"
+                },
+                {
+                    "count": 1,
+                    "path": "SQUARE DES MERES",
+                    "state": "displayed",
+                    "name": "SQUARE DES MERES"
+                },
+                {
+                    "count": 1,
+                    "path": "SQUARE DU PORTUGAL",
+                    "state": "displayed",
+                    "name": "SQUARE DU PORTUGAL"
+                }
+            ],
+            "name": "nom"
+        },
+        {
+            "facets": [
+                {
+                    "count": 109,
+                    "path": "LILLE",
+                    "state": "refined",
+                    "name": "LILLE"
+                }
+            ],
+            "name": "commune"
+        },
+        {
+            "facets": [
+                {
+                    "count": 105,
+                    "path": "CONNECTED",
+                    "state": "displayed",
+                    "name": "CONNECTED"
+                },
+                {
+                    "count": 4,
+                    "path": "DISCONNECTED",
+                    "state": "displayed",
+                    "name": "DISCONNECTED"
+                }
+            ],
+            "name": "etatconnexion"
+        },
+        {
+            "facets": [
+                {
+                    "count": 1,
+                    "path": "1",
+                    "state": "displayed",
+                    "name": "1"
+                },
+                {
+                    "count": 1,
+                    "path": "2",
+                    "state": "displayed",
+                    "name": "2"
+                },
+                {
+                    "count": 1,
+                    "path": "3",
+                    "state": "displayed",
+                    "name": "3"
+                },
+                {
+                    "count": 1,
+                    "path": "4",
+                    "state": "displayed",
+                    "name": "4"
+                },
+                {
+                    "count": 1,
+                    "path": "5",
+                    "state": "displayed",
+                    "name": "5"
+                },
+                {
+                    "count": 1,
+                    "path": "6",
+                    "state": "displayed",
+                    "name": "6"
+                },
+                {
+                    "count": 1,
+                    "path": "7",
+                    "state": "displayed",
+                    "name": "7"
+                },
+                {
+                    "count": 1,
+                    "path": "8",
+                    "state": "displayed",
+                    "name": "8"
+                },
+                {
+                    "count": 1,
+                    "path": "9",
+                    "state": "displayed",
+                    "name": "9"
+                },
+                {
+                    "count": 1,
+                    "path": "10",
+                    "state": "displayed",
+                    "name": "10"
+                },
+                {
+                    "count": 1,
+                    "path": "11",
+                    "state": "displayed",
+                    "name": "11"
+                },
+                {
+                    "count": 1,
+                    "path": "12",
+                    "state": "displayed",
+                    "name": "12"
+                },
+                {
+                    "count": 1,
+                    "path": "13",
+                    "state": "displayed",
+                    "name": "13"
+                },
+                {
+                    "count": 1,
+                    "path": "14",
+                    "state": "displayed",
+                    "name": "14"
+                },
+                {
+                    "count": 1,
+                    "path": "15",
+                    "state": "displayed",
+                    "name": "15"
+                },
+                {
+                    "count": 1,
+                    "path": "16",
+                    "state": "displayed",
+                    "name": "16"
+                },
+                {
+                    "count": 1,
+                    "path": "17",
+                    "state": "displayed",
+                    "name": "17"
+                },
+                {
+                    "count": 1,
+                    "path": "18",
+                    "state": "displayed",
+                    "name": "18"
+                },
+                {
+                    "count": 1,
+                    "path": "19",
+                    "state": "displayed",
+                    "name": "19"
+                },
+                {
+                    "count": 1,
+                    "path": "20",
+                    "state": "displayed",
+                    "name": "20"
+                },
+                {
+                    "count": 1,
+                    "path": "21",
+                    "state": "displayed",
+                    "name": "21"
+                },
+                {
+                    "count": 1,
+                    "path": "22",
+                    "state": "displayed",
+                    "name": "22"
+                },
+                {
+                    "count": 1,
+                    "path": "23",
+                    "state": "displayed",
+                    "name": "23"
+                },
+                {
+                    "count": 1,
+                    "path": "24",
+                    "state": "displayed",
+                    "name": "24"
+                },
+                {
+                    "count": 1,
+                    "path": "25",
+                    "state": "displayed",
+                    "name": "25"
+                },
+                {
+                    "count": 1,
+                    "path": "26",
+                    "state": "displayed",
+                    "name": "26"
+                },
+                {
+                    "count": 1,
+                    "path": "27",
+                    "state": "displayed",
+                    "name": "27"
+                },
+                {
+                    "count": 1,
+                    "path": "28",
+                    "state": "displayed",
+                    "name": "28"
+                },
+                {
+                    "count": 1,
+                    "path": "29",
+                    "state": "displayed",
+                    "name": "29"
+                },
+                {
+                    "count": 1,
+                    "path": "30",
+                    "state": "displayed",
+                    "name": "30"
+                },
+                {
+                    "count": 1,
+                    "path": "31",
+                    "state": "displayed",
+                    "name": "31"
+                },
+                {
+                    "count": 1,
+                    "path": "32",
+                    "state": "displayed",
+                    "name": "32"
+                },
+                {
+                    "count": 1,
+                    "path": "33",
+                    "state": "displayed",
+                    "name": "33"
+                },
+                {
+                    "count": 1,
+                    "path": "34",
+                    "state": "displayed",
+                    "name": "34"
+                },
+                {
+                    "count": 1,
+                    "path": "35",
+                    "state": "displayed",
+                    "name": "35"
+                },
+                {
+                    "count": 1,
+                    "path": "36",
+                    "state": "displayed",
+                    "name": "36"
+                },
+                {
+                    "count": 1,
+                    "path": "37",
+                    "state": "displayed",
+                    "name": "37"
+                },
+                {
+                    "count": 1,
+                    "path": "38",
+                    "state": "displayed",
+                    "name": "38"
+                },
+                {
+                    "count": 1,
+                    "path": "39",
+                    "state": "displayed",
+                    "name": "39"
+                },
+                {
+                    "count": 1,
+                    "path": "40",
+                    "state": "displayed",
+                    "name": "40"
+                },
+                {
+                    "count": 1,
+                    "path": "41",
+                    "state": "displayed",
+                    "name": "41"
+                },
+                {
+                    "count": 1,
+                    "path": "42",
+                    "state": "displayed",
+                    "name": "42"
+                },
+                {
+                    "count": 1,
+                    "path": "43",
+                    "state": "displayed",
+                    "name": "43"
+                },
+                {
+                    "count": 1,
+                    "path": "44",
+                    "state": "displayed",
+                    "name": "44"
+                },
+                {
+                    "count": 1,
+                    "path": "45",
+                    "state": "displayed",
+                    "name": "45"
+                },
+                {
+                    "count": 1,
+                    "path": "46",
+                    "state": "displayed",
+                    "name": "46"
+                },
+                {
+                    "count": 1,
+                    "path": "47",
+                    "state": "displayed",
+                    "name": "47"
+                },
+                {
+                    "count": 1,
+                    "path": "48",
+                    "state": "displayed",
+                    "name": "48"
+                },
+                {
+                    "count": 1,
+                    "path": "49",
+                    "state": "displayed",
+                    "name": "49"
+                },
+                {
+                    "count": 1,
+                    "path": "50",
+                    "state": "displayed",
+                    "name": "50"
+                },
+                {
+                    "count": 1,
+                    "path": "51",
+                    "state": "displayed",
+                    "name": "51"
+                },
+                {
+                    "count": 1,
+                    "path": "52",
+                    "state": "displayed",
+                    "name": "52"
+                },
+                {
+                    "count": 1,
+                    "path": "53",
+                    "state": "displayed",
+                    "name": "53"
+                },
+                {
+                    "count": 1,
+                    "path": "54",
+                    "state": "displayed",
+                    "name": "54"
+                },
+                {
+                    "count": 1,
+                    "path": "55",
+                    "state": "displayed",
+                    "name": "55"
+                },
+                {
+                    "count": 1,
+                    "path": "56",
+                    "state": "displayed",
+                    "name": "56"
+                },
+                {
+                    "count": 1,
+                    "path": "57",
+                    "state": "displayed",
+                    "name": "57"
+                },
+                {
+                    "count": 1,
+                    "path": "58",
+                    "state": "displayed",
+                    "name": "58"
+                },
+                {
+                    "count": 1,
+                    "path": "59",
+                    "state": "displayed",
+                    "name": "59"
+                },
+                {
+                    "count": 1,
+                    "path": "60",
+                    "state": "displayed",
+                    "name": "60"
+                },
+                {
+                    "count": 1,
+                    "path": "61",
+                    "state": "displayed",
+                    "name": "61"
+                },
+                {
+                    "count": 1,
+                    "path": "62",
+                    "state": "displayed",
+                    "name": "62"
+                },
+                {
+                    "count": 1,
+                    "path": "63",
+                    "state": "displayed",
+                    "name": "63"
+                },
+                {
+                    "count": 1,
+                    "path": "64",
+                    "state": "displayed",
+                    "name": "64"
+                },
+                {
+                    "count": 1,
+                    "path": "65",
+                    "state": "displayed",
+                    "name": "65"
+                },
+                {
+                    "count": 1,
+                    "path": "66",
+                    "state": "displayed",
+                    "name": "66"
+                },
+                {
+                    "count": 1,
+                    "path": "67",
+                    "state": "displayed",
+                    "name": "67"
+                },
+                {
+                    "count": 1,
+                    "path": "68",
+                    "state": "displayed",
+                    "name": "68"
+                },
+                {
+                    "count": 1,
+                    "path": "69",
+                    "state": "displayed",
+                    "name": "69"
+                },
+                {
+                    "count": 1,
+                    "path": "70",
+                    "state": "displayed",
+                    "name": "70"
+                },
+                {
+                    "count": 1,
+                    "path": "71",
+                    "state": "displayed",
+                    "name": "71"
+                },
+                {
+                    "count": 1,
+                    "path": "72",
+                    "state": "displayed",
+                    "name": "72"
+                },
+                {
+                    "count": 1,
+                    "path": "73",
+                    "state": "displayed",
+                    "name": "73"
+                },
+                {
+                    "count": 1,
+                    "path": "74",
+                    "state": "displayed",
+                    "name": "74"
+                },
+                {
+                    "count": 1,
+                    "path": "75",
+                    "state": "displayed",
+                    "name": "75"
+                },
+                {
+                    "count": 1,
+                    "path": "76",
+                    "state": "displayed",
+                    "name": "76"
+                },
+                {
+                    "count": 1,
+                    "path": "77",
+                    "state": "displayed",
+                    "name": "77"
+                },
+                {
+                    "count": 1,
+                    "path": "78",
+                    "state": "displayed",
+                    "name": "78"
+                },
+                {
+                    "count": 1,
+                    "path": "79",
+                    "state": "displayed",
+                    "name": "79"
+                },
+                {
+                    "count": 1,
+                    "path": "80",
+                    "state": "displayed",
+                    "name": "80"
+                },
+                {
+                    "count": 1,
+                    "path": "82",
+                    "state": "displayed",
+                    "name": "82"
+                },
+                {
+                    "count": 1,
+                    "path": "83",
+                    "state": "displayed",
+                    "name": "83"
+                },
+                {
+                    "count": 1,
+                    "path": "88",
+                    "state": "displayed",
+                    "name": "88"
+                },
+                {
+                    "count": 1,
+                    "path": "89",
+                    "state": "displayed",
+                    "name": "89"
+                },
+                {
+                    "count": 1,
+                    "path": "90",
+                    "state": "displayed",
+                    "name": "90"
+                },
+                {
+                    "count": 1,
+                    "path": "91",
+                    "state": "displayed",
+                    "name": "91"
+                },
+                {
+                    "count": 1,
+                    "path": "92",
+                    "state": "displayed",
+                    "name": "92"
+                },
+                {
+                    "count": 1,
+                    "path": "93",
+                    "state": "displayed",
+                    "name": "93"
+                },
+                {
+                    "count": 1,
+                    "path": "94",
+                    "state": "displayed",
+                    "name": "94"
+                },
+                {
+                    "count": 1,
+                    "path": "109",
+                    "state": "displayed",
+                    "name": "109"
+                },
+                {
+                    "count": 1,
+                    "path": "110",
+                    "state": "displayed",
+                    "name": "110"
+                },
+                {
+                    "count": 1,
+                    "path": "113",
+                    "state": "displayed",
+                    "name": "113"
+                },
+                {
+                    "count": 1,
+                    "path": "114",
+                    "state": "displayed",
+                    "name": "114"
+                },
+                {
+                    "count": 1,
+                    "path": "146",
+                    "state": "displayed",
+                    "name": "146"
+                },
+                {
+                    "count": 1,
+                    "path": "147",
+                    "state": "displayed",
+                    "name": "147"
+                },
+                {
+                    "count": 1,
+                    "path": "148",
+                    "state": "displayed",
+                    "name": "148"
+                },
+                {
+                    "count": 1,
+                    "path": "159",
+                    "state": "displayed",
+                    "name": "159"
+                },
+                {
+                    "count": 1,
+                    "path": "162",
+                    "state": "displayed",
+                    "name": "162"
+                },
+                {
+                    "count": 1,
+                    "path": "164",
+                    "state": "displayed",
+                    "name": "164"
+                },
+                {
+                    "count": 1,
+                    "path": "165",
+                    "state": "displayed",
+                    "name": "165"
+                }
+            ],
+            "name": "libelle"
+        },
+        {
+            "facets": [
+                {
+                    "count": 102,
+                    "path": "AVEC TPE",
+                    "state": "displayed",
+                    "name": "AVEC TPE"
+                },
+                {
+                    "count": 7,
+                    "path": "SANS TPE",
+                    "state": "displayed",
+                    "name": "SANS TPE"
+                }
+            ],
+            "name"
