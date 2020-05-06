@@ -7,6 +7,6 @@ Template: customify
 Version: 0.1.0
 */
 
-.row-v2.no-center .col-v2.col-v2-left{
-    font-size: 3em;
+.row-v2.no-center .col-v2.col-v2-left .item--inner.builder-item--logo .site-branding.logo-top .site-name-desc .site-title {
+    font-size: 3em !important;
 }
