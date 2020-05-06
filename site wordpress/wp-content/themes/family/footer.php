@@ -1,6 +1,6 @@
 </div> <!-- /.container -->
 <footer class="blog-footer">
-<p>Par <a href="https://www.wppourlesnuls.com/">WP Pour les Nuls</a>.</p>
+
 </footer>
 <script
 src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
