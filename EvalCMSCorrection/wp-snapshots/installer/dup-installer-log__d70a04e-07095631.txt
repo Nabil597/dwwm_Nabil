@@ -1,0 +1,492 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 12:31:16
+* VERSION: 1.3.32
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.5                                 |7.4.2
+OS__________________: WINNT                                 |Darwin
+CREATED_____________: 2020-05-07 09:56:31
+WP VERSION__________: 5.4
+DUP VERSION_________: 1.3.32
+DB__________________: 5.7.26
+DB TABLES___________: 19
+DB ROWS_____________: 693
+DB FILE SIZE________: 706.56KB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.2 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0
+DOC ROOT____________: "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://virtual/dwwm_Nabil/EvalCMSCorrection/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection/20200507_evalcmsyous_[HASH]_20200507095631_archive.zip"
+SIZE________________: 29.33MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 12:31:18 - RUNTIME: 1.9783 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) [CODE:2|FILE:/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection/dup-installer/classes/class.db.php|LINE:43]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: NO)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 12:34:06
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.26 -- Build Server: 5.7.26
+FILE SIZE:	dup-database__[HASH].sql (615.42KB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	715
+
+wp_commentmeta: (0)
+wp_comments: (2)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (132)
+wp_postmeta: (320)
+wp_posts: (113)
+wp_rednao_smart_forms_entry: (0)
+wp_rednao_smart_forms_entry_detail: (0)
+wp_rednao_smart_forms_table_name: (1)
+wp_rednao_smart_forms_uploaded_files: (0)
+wp_term_relationships: (33)
+wp_term_taxonomy: (5)
+wp_termmeta: (0)
+wp_terms: (5)
+wp_usermeta: (53)
+wp_users: (2)
+wp_wp_openstreetmap: (2)
+wp_wp_openstreetmap_markers: (0)
+Removed '25' cache/transient rows
+
+INSERT DATA RUNTIME: 0.4154 sec.
+STEP-2 COMPLETE @ 12:34:06 - RUNTIME: 0.4209 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 12:34:13
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Eval-cms-yous"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/wamp64/www/Dwwm-yousra/eval yous/wpeval"
+path_new______________: "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+siteurl_______________: "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+url_old_______________: "http://localhost/Dwwm-yousra/evalyous/wpeval"
+url_new_______________: "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/Dwwm-yousra/eval yous/wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  2:"C:\/wamp64\/www\/Dwwm-yousra\/eval yous\/wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2FDwwm-yousra%2Feval+yous%2Fwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  4:"C:\wamp64\www\Dwwm-yousra\eval yous\wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  5:"C:\\wamp64\\www\\Dwwm-yousra\\eval yous\\wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5CDwwm-yousra%5Ceval+yous%5Cwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  7:"//localhost/Dwwm-yousra/evalyous/wpeval" =========> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  8:"\/\/localhost\/Dwwm-yousra\/evalyous\/wpeval" ====> "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  9:"%2F%2Flocalhost%2FDwwm-yousra%2Fevalyous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 10:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 11:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 12:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 13:"//localhost/Dwwm-yousra/eval%20yous/wpeval" ======> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 14:"\/\/localhost\/Dwwm-yousra\/eval%20yous\/wpeval" => "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 15:"%2F%2Flocalhost%2FDwwm-yousra%2Feval%2520yous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 16:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 17:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 18:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   132][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/Dwwm-yousra/eval yous/wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  2:"C:\/wamp64\/www\/Dwwm-yousra\/eval yous\/wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2FDwwm-yousra%2Feval+yous%2Fwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  4:"C:\wamp64\www\Dwwm-yousra\eval yous\wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  5:"C:\\wamp64\\www\\Dwwm-yousra\\eval yous\\wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5CDwwm-yousra%5Ceval+yous%5Cwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  7:"//localhost/Dwwm-yousra/evalyous/wpeval" =========> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  8:"\/\/localhost\/Dwwm-yousra\/evalyous\/wpeval" ====> "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  9:"%2F%2Flocalhost%2FDwwm-yousra%2Fevalyous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 10:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 11:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 12:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 13:"//localhost/Dwwm-yousra/eval%20yous/wpeval" ======> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 14:"\/\/localhost\/Dwwm-yousra\/eval%20yous\/wpeval" => "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 15:"%2F%2Flocalhost%2FDwwm-yousra%2Feval%2520yous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 16:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 17:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 18:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   320][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/Dwwm-yousra/eval yous/wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  2:"C:\/wamp64\/www\/Dwwm-yousra\/eval yous\/wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2FDwwm-yousra%2Feval+yous%2Fwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  4:"C:\wamp64\www\Dwwm-yousra\eval yous\wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  5:"C:\\wamp64\\www\\Dwwm-yousra\\eval yous\\wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5CDwwm-yousra%5Ceval+yous%5Cwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  7:"//localhost/Dwwm-yousra/evalyous/wpeval" =========> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  8:"\/\/localhost\/Dwwm-yousra\/evalyous\/wpeval" ====> "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  9:"%2F%2Flocalhost%2FDwwm-yousra%2Fevalyous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 10:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 11:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 12:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 13:"//localhost/Dwwm-yousra/eval%20yous/wpeval" ======> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 14:"\/\/localhost\/Dwwm-yousra\/eval%20yous\/wpeval" => "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 15:"%2F%2Flocalhost%2FDwwm-yousra%2Feval%2520yous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 16:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 17:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 18:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   113][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/Dwwm-yousra/eval yous/wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  2:"C:\/wamp64\/www\/Dwwm-yousra\/eval yous\/wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2FDwwm-yousra%2Feval+yous%2Fwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  4:"C:\wamp64\www\Dwwm-yousra\eval yous\wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  5:"C:\\wamp64\\www\\Dwwm-yousra\\eval yous\\wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5CDwwm-yousra%5Ceval+yous%5Cwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  7:"//localhost/Dwwm-yousra/evalyous/wpeval" =========> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  8:"\/\/localhost\/Dwwm-yousra\/evalyous\/wpeval" ====> "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  9:"%2F%2Flocalhost%2FDwwm-yousra%2Fevalyous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 10:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 11:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 12:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 13:"//localhost/Dwwm-yousra/eval%20yous/wpeval" ======> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 14:"\/\/localhost\/Dwwm-yousra\/eval%20yous\/wpeval" => "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 15:"%2F%2Flocalhost%2FDwwm-yousra%2Feval%2520yous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 16:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 17:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 18:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+
+EVALUATE TABLE: "wp_rednao_smart_forms_entry"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rednao_smart_forms_entry_detail"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rednao_smart_forms_table_name"________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/Dwwm-yousra/eval yous/wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  2:"C:\/wamp64\/www\/Dwwm-yousra\/eval yous\/wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2FDwwm-yousra%2Feval+yous%2Fwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  4:"C:\wamp64\www\Dwwm-yousra\eval yous\wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  5:"C:\\wamp64\\www\\Dwwm-yousra\\eval yous\\wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5CDwwm-yousra%5Ceval+yous%5Cwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  7:"//localhost/Dwwm-yousra/evalyous/wpeval" =========> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  8:"\/\/localhost\/Dwwm-yousra\/evalyous\/wpeval" ====> "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  9:"%2F%2Flocalhost%2FDwwm-yousra%2Fevalyous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 10:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 11:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 12:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 13:"//localhost/Dwwm-yousra/eval%20yous/wpeval" ======> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 14:"\/\/localhost\/Dwwm-yousra\/eval%20yous\/wpeval" => "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 15:"%2F%2Flocalhost%2FDwwm-yousra%2Feval%2520yous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 16:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 17:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 18:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+
+EVALUATE TABLE: "wp_rednao_smart_forms_uploaded_files"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/Dwwm-yousra/eval yous/wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  2:"C:\/wamp64\/www\/Dwwm-yousra\/eval yous\/wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2FDwwm-yousra%2Feval+yous%2Fwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  4:"C:\wamp64\www\Dwwm-yousra\eval yous\wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  5:"C:\\wamp64\\www\\Dwwm-yousra\\eval yous\\wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5CDwwm-yousra%5Ceval+yous%5Cwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  7:"//localhost/Dwwm-yousra/evalyous/wpeval" =========> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  8:"\/\/localhost\/Dwwm-yousra\/evalyous\/wpeval" ====> "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  9:"%2F%2Flocalhost%2FDwwm-yousra%2Fevalyous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 10:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 11:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 12:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 13:"//localhost/Dwwm-yousra/eval%20yous/wpeval" ======> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 14:"\/\/localhost\/Dwwm-yousra\/eval%20yous\/wpeval" => "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 15:"%2F%2Flocalhost%2FDwwm-yousra%2Feval%2520yous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 16:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 17:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 18:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/Dwwm-yousra/eval yous/wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  2:"C:\/wamp64\/www\/Dwwm-yousra\/eval yous\/wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2FDwwm-yousra%2Feval+yous%2Fwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  4:"C:\wamp64\www\Dwwm-yousra\eval yous\wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  5:"C:\\wamp64\\www\\Dwwm-yousra\\eval yous\\wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5CDwwm-yousra%5Ceval+yous%5Cwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  7:"//localhost/Dwwm-yousra/evalyous/wpeval" =========> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  8:"\/\/localhost\/Dwwm-yousra\/evalyous\/wpeval" ====> "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  9:"%2F%2Flocalhost%2FDwwm-yousra%2Fevalyous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 10:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 11:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 12:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 13:"//localhost/Dwwm-yousra/eval%20yous/wpeval" ======> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 14:"\/\/localhost\/Dwwm-yousra\/eval%20yous\/wpeval" => "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 15:"%2F%2Flocalhost%2FDwwm-yousra%2Feval%2520yous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 16:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 17:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 18:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/Dwwm-yousra/eval yous/wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  2:"C:\/wamp64\/www\/Dwwm-yousra\/eval yous\/wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2FDwwm-yousra%2Feval+yous%2Fwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  4:"C:\wamp64\www\Dwwm-yousra\eval yous\wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  5:"C:\\wamp64\\www\\Dwwm-yousra\\eval yous\\wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5CDwwm-yousra%5Ceval+yous%5Cwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  7:"//localhost/Dwwm-yousra/evalyous/wpeval" =========> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  8:"\/\/localhost\/Dwwm-yousra\/evalyous\/wpeval" ====> "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  9:"%2F%2Flocalhost%2FDwwm-yousra%2Fevalyous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 10:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 11:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 12:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 13:"//localhost/Dwwm-yousra/eval%20yous/wpeval" ======> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 14:"\/\/localhost\/Dwwm-yousra\/eval%20yous\/wpeval" => "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 15:"%2F%2Flocalhost%2FDwwm-yousra%2Feval%2520yous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 16:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 17:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 18:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    53][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/Dwwm-yousra/eval yous/wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  2:"C:\/wamp64\/www\/Dwwm-yousra\/eval yous\/wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2FDwwm-yousra%2Feval+yous%2Fwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  4:"C:\wamp64\www\Dwwm-yousra\eval yous\wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  5:"C:\\wamp64\\www\\Dwwm-yousra\\eval yous\\wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5CDwwm-yousra%5Ceval+yous%5Cwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  7:"//localhost/Dwwm-yousra/evalyous/wpeval" =========> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  8:"\/\/localhost\/Dwwm-yousra\/evalyous\/wpeval" ====> "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  9:"%2F%2Flocalhost%2FDwwm-yousra%2Fevalyous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 10:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 11:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 12:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 13:"//localhost/Dwwm-yousra/eval%20yous/wpeval" ======> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 14:"\/\/localhost\/Dwwm-yousra\/eval%20yous\/wpeval" => "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 15:"%2F%2Flocalhost%2FDwwm-yousra%2Feval%2520yous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 16:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 17:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 18:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/Dwwm-yousra/eval yous/wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  2:"C:\/wamp64\/www\/Dwwm-yousra\/eval yous\/wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2FDwwm-yousra%2Feval+yous%2Fwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  4:"C:\wamp64\www\Dwwm-yousra\eval yous\wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  5:"C:\\wamp64\\www\\Dwwm-yousra\\eval yous\\wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5CDwwm-yousra%5Ceval+yous%5Cwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  7:"//localhost/Dwwm-yousra/evalyous/wpeval" =========> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  8:"\/\/localhost\/Dwwm-yousra\/evalyous\/wpeval" ====> "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  9:"%2F%2Flocalhost%2FDwwm-yousra%2Fevalyous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 10:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 11:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 12:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 13:"//localhost/Dwwm-yousra/eval%20yous/wpeval" ======> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 14:"\/\/localhost\/Dwwm-yousra\/eval%20yous\/wpeval" => "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 15:"%2F%2Flocalhost%2FDwwm-yousra%2Feval%2520yous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 16:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 17:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 18:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+
+EVALUATE TABLE: "wp_wp_openstreetmap"_____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/Dwwm-yousra/eval yous/wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  2:"C:\/wamp64\/www\/Dwwm-yousra\/eval yous\/wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2FDwwm-yousra%2Feval+yous%2Fwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  4:"C:\wamp64\www\Dwwm-yousra\eval yous\wpeval" ======> "/Users/nab/virtual-hosts/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  5:"C:\\wamp64\\www\\Dwwm-yousra\\eval yous\\wpeval" => "\/Users\/nab\/virtual-hosts\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5CDwwm-yousra%5Ceval+yous%5Cwpeval" => "%2FUsers%2Fnab%2Fvirtual-hosts%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH  7:"//localhost/Dwwm-yousra/evalyous/wpeval" =========> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH  8:"\/\/localhost\/Dwwm-yousra\/evalyous\/wpeval" ====> "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH  9:"%2F%2Flocalhost%2FDwwm-yousra%2Fevalyous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 10:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 11:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 12:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 13:"//localhost/Dwwm-yousra/eval%20yous/wpeval" ======> "//virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 14:"\/\/localhost\/Dwwm-yousra\/eval%20yous\/wpeval" => "\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 15:"%2F%2Flocalhost%2FDwwm-yousra%2Feval%2520yous%2Fwpeval" => "%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+	SEARCH 16:"https://virtual/dwwm_Nabil/EvalCMSCorrection" ====> "http://virtual/dwwm_Nabil/EvalCMSCorrection"
+	SEARCH 17:"https:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection" => "http:\/\/virtual\/dwwm_Nabil\/EvalCMSCorrection"
+	SEARCH 18:"https%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection" => "http%3A%2F%2Fvirtual%2Fdwwm_Nabil%2FEvalCMSCorrection"
+
+EVALUATE TABLE: "wp_wp_openstreetmap_markers"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:19 	|	 Rows:668 	|	 Cells:4838 
+UPDATED:	Tables:5 	|	 Rows:121 	|	 Cells:139 
+ERRORS:		0 
+RUNTIME:	0.089500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""evalYous""
+	UPDATE DB_USER ""yous""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:34:13 - RUNTIME: 0.1419 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
