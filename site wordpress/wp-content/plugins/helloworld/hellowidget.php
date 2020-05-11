@@ -14,7 +14,14 @@ class hellowidget extends WP_Widget {
         echo $arguments['after_title'];
         ?>
 
-        <div class='test'><h1>Hello World </h1></div>
+        <form action="" method="post">
+            <p>
+                <label for="helloworld_comm">Votre commentaire :</label>
+                <input id="helloworld_comm" name="helloworld_comm" type="texte">
+            </P>
+            <input type="submit">
+        </form>        
+            
         <?php
         echo $arguments['after_widget'];
     }
