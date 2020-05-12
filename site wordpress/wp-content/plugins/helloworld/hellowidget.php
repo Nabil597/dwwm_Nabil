@@ -15,22 +15,21 @@ class hellowidget extends WP_Widget {
         
         // corps du widget
         $couleur = get_option('helloworld_couleur', 'white');
-        echo '
-            <div id="test" style="color: ' . $couleur . '">Hello World est un plug-in qui enregistre
+        ?>
+            <div id="test" style="color:<?php echo $couleur;?> ">Hello World est un plug-in qui enregistre
             les commentaires en base de données</div>
                 <h1>Hello World</h1>
-                <form action="" method="post">         ' .
-                settings_fields('helloworld_settings') . '
+                <form action="" method="post">         
                     <p>
                         <label for="helloworld_pseudo">Votre pseudo :</label>
-                        <input style="color:blue;" id="helloworld_pseudo" name="helloworld_pseudo" type="text">
+                        <input style="color:blue" id="helloworld_pseudo" name="helloworld_pseudo" type="text"/>
                         <label for="helloworld_comm">Votre commentaire :</label>
-                        <input style="color:blue;" id="helloworld_comm" name="helloworld_comm" type="text">
+                        <input style="color:blue" id="helloworld_comm" name="helloworld_comm" type="text"/>
                     </p>
                     <input type="submit"/>
                 </form>
-            ';
-        echo $arguments['after_widget'];
+           
+        <?php echo $arguments['after_widget'];
 
        
     }
