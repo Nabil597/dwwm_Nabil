@@ -14,7 +14,6 @@ class HelloWorld_PLugin{
         register_activation_hook(__FILE__, array('helloClass', 'installCom'));
         register_activation_hook(__FILE__, array('helloClass', 'installPseudo'));
         register_deactivation_hook(__FILE__, array('helloClass', 'uninstall'));
-        
     }
 }
 new HelloWorld_Plugin();
