@@ -31,3 +31,5 @@ function image_css() {
 }
 
 add_action( 'admin_head', 'image_css');
+
+// l'image s'affiche seulement du côté du menu admin à cause des add_action qui s'opère sur le côté admin, je ne sais pas comment l'afficher dnas le site directement

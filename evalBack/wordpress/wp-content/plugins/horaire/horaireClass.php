@@ -34,12 +34,16 @@ class HoraireClass {
         echo '<h1>'.get_admin_page_title().'</h1>';
         ?>
         <form method="post" action="options.php">
+        <p>
         <label>Premier jour de la semaine</label>
         <input type="text" name="horaire_jour" value="<?php echo
         get_option("jour")?>"/>
+        </p>
+        <p>
         <label>Afficher tous les jours</label>
-        <input type="text" name="horaire_all" value="<?php echo
+        <input type="checkbox" name="horaire_all" value="<?php echo
         get_option("jour")?>"/>
+        </p>
         <?php submit_button();
         settings_fields('horaire_settings'); ?>
         </form>
